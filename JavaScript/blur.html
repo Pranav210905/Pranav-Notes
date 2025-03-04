@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    
+    <script>
+        const inputField = document.querySelector("#username"); 
+        inputField.addEventListener("blur", function() { 
+            console.log("Input field has lost focus."); 
+        });
+    </script>
+</body>
+</html>

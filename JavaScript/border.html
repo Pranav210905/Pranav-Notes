@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Borders</title>
+    </head>
+    <style>
+     div { 
+border:2px solid;
+  border-top: none; /* No border on the top side */ 
+}
+    </style>
+    <body>
+        <div>
+            <h1>Hi</h1>
+            <input type="checkbox"  id="myCheckbox" checked/> 
+        </div>
+    </body>
+</html>
+<script>
+const checkbox = document.getElementById("myCheckbox"); 
+
+if (checkbox.checked) { 
+  console.log("Checkbox is checked!"); 
+} else { 
+  console.log("Checkbox is not checked."); 
+}
+</script>

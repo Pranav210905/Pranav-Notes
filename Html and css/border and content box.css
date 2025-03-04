@@ -1,0 +1,16 @@
+.box { 
+    height: 120px; 
+    width: 120px; 
+    background-color: skyblue; 
+    font-size: 40px; 
+    font-family: "Roboto"; 
+    margin: 10px; 
+    box-sizing: content-box;
+  } 
+  .box2 { 
+      padding: 20px; 
+  } 
+  .box3 { 
+      padding: 20px; 
+      border: 20px solid blue; 
+  }

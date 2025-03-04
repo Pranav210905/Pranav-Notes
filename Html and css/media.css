@@ -1,0 +1,17 @@
+body { 
+    margin: 0px; 
+  } 
+  .bg-container { 
+    height: 100vh; 
+    width: 80vw;
+  } 
+  @media screen and (min-width: 600px) { 
+    .bg-container { 
+      background: yellowgreen; 
+    } 
+  } 
+  @media not screen and (min-width: 600px) { 
+    .bg-container { 
+      background: orange; 
+    } 
+  }

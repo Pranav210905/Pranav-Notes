@@ -1,0 +1,78 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    background-image: url(best-service-hotel-stats-lg-background.png);
+    background-size: cover;
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img{
+    height: 95px;
+    width: 150px;
+}
+.set1{
+    margin-top: 60px;
+   display: flex;
+   flex-direction: row;
+}
+.head{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+}
+.para{
+    color:#ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+}
+.box2{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.set2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.head1{
+    color: #12022f;
+    font-family: Roboto;
+    text-align: center;
+}
+.para1{
+    color: #594d6d;
+    font-family: roboto;
+   
+    margin: 100px;
+    margin-top: 10px;
+}
+.h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.para2{
+    color: #176fff;
+    font-weight:bold;
+    font-size: 16px;
+}
+.para3{
+    color:#323f4b ;
+    font-size: 14px;
+}

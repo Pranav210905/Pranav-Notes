@@ -1,0 +1,38 @@
+Completion Instructions
+Functionality to be added
+
+The app must have the following functionalities
+
+Initially, the balance should be 2000 rupees
+When a denomination is clicked, then the respective value should be deducted from the balance available
+The CashWithdrawal component receives the denominationsList as a prop. It consists of a list of denomination objects with the following properties in each denomination object
+
+Key	Data Type
+id	Number
+value	Number
+Components Structure
+
+cash withdrawal component structure
+
+Implementation Files
+
+Use these files to complete the implementation:
+
+src/components/CashWithdrawal/index.js
+src/components/CashWithdrawal/index.css
+src/components/DenominationItem/index.js
+src/components/DenominationItem/index.css
+
+Resources
+
+Colors:
+Hex: #150b3e
+Hex: #c7d2fe
+Hex: #7c3aed
+Hex: #d4d2db
+Hex: #585076
+Hex: #382f5a
+Hex: #c4c4c4
+
+Font-families
+Roboto
